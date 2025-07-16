@@ -5,6 +5,9 @@
   "scripts": {
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
   },
+  "bin": {
+    "my-cli": "bin/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
