@@ -64,8 +64,8 @@ async function checkVersion(name: string, version: string) {
   const latestVersion = await getNpmVersion(name);
   const need = gt(latestVersion, version);
   if (need) {
-    console.warn(`检查到dawei最新版本： ${chalk.blackBright(latestVersion)}，当前版本是：${chalk.blackBright(version)}`);
-    console.log(`可使用： ${chalk.yellow('npm install dawei-cli@latest')}，或者使用：${chalk.yellow('dawei update')}更新`);
+    console.warn(`检查到最新版本：${chalk.blackBright(latestVersion)}，当前版本是：${chalk.blackBright(version)}`);
+    console.log(`可使用：${chalk.yellow('npm i ytt-vue-cli@latest')}，或者使用：${chalk.yellow('ytt update')}更新`);
   }
   return need;
 }

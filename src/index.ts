@@ -9,15 +9,15 @@ program.version(version, '-v --version');
 program
   .command('update')
   .description('更新脚手架 ytt-vue-cli')
-  .action(async () => {
-    await update();
+  .action(() => {
+    update();
   });
 
 program
   .command('create')
   .description('创建一个新项目')
   .argument('[name]', '项目名称')
-  .action(async dirName => {
+  .action(dirName => {
     create(dirName);
   });
 
