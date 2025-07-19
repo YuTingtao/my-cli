@@ -1,6 +1,6 @@
 {
   "name": "ytt-vue-cli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
