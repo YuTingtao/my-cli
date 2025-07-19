@@ -7,7 +7,7 @@ program.version(version, '-v --version');
 
 program
   .command('update')
-  .description('更新脚手架 ytt-cli')
+  .description('更新脚手架 ytt-vue-cli')
   .action(async () => {
     await update();
   });

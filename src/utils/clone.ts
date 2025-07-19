@@ -12,7 +12,7 @@ const logger = createLogger({
 });
 
 const goodPrinter = async () => {
-  const data = await figlet('ytt-cli');
+  const data = await figlet('ytt-vue-cli');
   console.log(chalk.rgb(40, 156, 193).visible(data));
 };
 
@@ -32,7 +32,7 @@ export const clone = async (url: string, projectName: string, options: string[])
     goodPrinter();
     console.log();
     console.log(chalk.blueBright(`----------------------------------`));
-    console.log(chalk.blueBright(`----- 欢迎使用 ytt-cli 脚手架 -----`));
+    console.log(chalk.blueBright(`----- 欢迎使用 ytt-vue-cli 脚手架 -----`));
     console.log(chalk.blueBright(`----------------------------------`));
     console.log();
 
