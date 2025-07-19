@@ -65,7 +65,7 @@ async function checkVersion(name: string, version: string) {
   const need = gt(latestVersion, version);
   if (need) {
     console.warn(`检查到最新版本：${chalk.blackBright(latestVersion)}，当前版本是：${chalk.blackBright(version)}`);
-    console.log(`可使用：${chalk.yellow('npm i ytt-vue-cli@latest')}，或者使用：${chalk.yellow('ytt update')}更新`);
+    console.log(`可使用：${chalk.yellow('npm i ytt-vue-cli@latest -g')}，或者使用：${chalk.yellow('ytt update')}更新`);
   }
   return need;
 }
