@@ -1,5 +1,5 @@
 {
-  "name": "my-cli",
+  "name": "ytt-cli",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
