@@ -2,6 +2,7 @@ import { Command } from 'commander';
 import { version } from '../package.json';
 import { create } from './command/create';
 import { update } from './command/update';
+
 const program = new Command('ytt');
 program.version(version, '-v --version');
 

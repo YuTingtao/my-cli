@@ -6,7 +6,7 @@
     "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
   },
   "bin": {
-    "my-cli": "bin/index.js"
+    "ytt": "bin/index.js"
   },
   "keywords": [],
   "author": "",
